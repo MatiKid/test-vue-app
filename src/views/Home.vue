@@ -1,7 +1,11 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+    <HelloWorld
+      msg="Welcome to a shitty vue app"
+      subtitle="a test"
+      :dataList="[{ value: 'test 1' }, { value: 'test 2' }]"
+    />
   </div>
 </template>
 
